@@ -1,14 +1,14 @@
-sourcefile = open('.\input.txt', 'r', encoding="utf-8")
+sourcefile = open('palindrome_checker\input.txt', 'r', encoding="utf-8")
 lines = []
 
 for line in sourcefile:
-  print(line)
-  string = ""
-  for char in line.strip():
-    if char.isalnum():
-      string += char.lower()
+    print(line)
+    string = ""
+    for char in line.strip():
+        if char.isalnum():
+            string += char.lower()
       
-  lines.append(string)
+    lines.append(string)
 
 print(lines)
   
