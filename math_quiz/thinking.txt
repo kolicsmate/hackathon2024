@@ -1,0 +1,27 @@
+1. Ha 5 másodpercig van a lámpa a vonat felett az azt jelenti, hogy 5 másodpercbe telik neki megtenni a saját
+hosszát. 20 másodperc alatt 300 métert tesz meg, egyenes vonalú egyenletes mozgásból adódó egyenes arányosság
+miatt 5 másodperc alatt azaz 1/4 ido alatt 1/4 távot tesz meg 300/4 = 75 métert. Ez a vonat hossza.
+
+2.
+
+4. Elég megvizsgálnunk az első negyedet hisz pitagoraszi számhármasokat keresünk és nem szamít hogy ha negatív
+ugyanúgy helyes. Illetve a x^2+y^2=5^2 egyenlet megoldásait keressük az egész számok halmazán. Melyek az elso
+negyedben x=0 y=5, x=5 y=0, x=3 y=4, x=4 x=3. Mind a négy negyedben megtalálhatóak ezek tehát 4*4= 16szor. Így
+viszont 4et kétszer számoltunk le kell vonnunk őket. 16-4 = 12 rácspont esik a körvonalra.
+
+6.Legfeljebb 4en derékszögek miatt négyszögnél teljesül a legtöbb
+
+7.21 golyót kell kihúznunk 30 közül hogy biztos legyen piros golyónk. Tehát a 21. kihúzottnak biztos pirosnak 
+kell lennie tehát mire kihúzunk 20 golyót már csak pirosaknak szabad bentmaradniuk azaz 10 piros golyónk van.
+Mert a zöldek és kékek együtt 20an vannak.
+
+8.Mivel páratlan az összegük biztosan egy van kis négzet van a nagy négyzet közepén. Így marad 84cm^2 2átló van
+mindegyikben 84/2+1=43 darab 1cm^2es négyzet. Ez azt jelenti hogy 43cm széles és magas a nagy négyzet így a 
+területe 43^2= 1849
+
+9.A helyzet felírható egy teljes gráffal hisz mindenki elköszönt mindenkitől, ahol a gráf élei az két ember
+elköszönésének száma, fokszámainak összege pedig az elhangzott köszönések száma azaz 198+308= 506. Ez kétszerese
+az élek számának mely ezek szerint 253. Teljes gráfnak n*(n-1)/2 éle van amit tudunk hogy 253 ezt az egyenletet
+kell megoldani az emberek számához. 23an vettek részt a találkozón. Az angoloktól eredő köszönés fokszám az 198.
+Tehát x angolok száma, y magyarok száma: x(x-1)+x*y/2 = 198 x+y=23 egyenletrendszert kell megoldani. 12 angol vett
+részt a találkozón.
