@@ -1,4 +1,4 @@
-sourcefile = open('palindrome_checker\input.txt', 'r', encoding="utf-8")
+sourcefile = open('.\input.txt', 'r', encoding="utf-8")
 lines = []
 
 for line in sourcefile:
@@ -29,7 +29,7 @@ for line in lines:
   
   
   if i < n/2:
-    print(k,'NO, -1')
+    print('NO, -1')
   else:
-    print(k,"YES,", len(alphnum))
+    print("YES,", len(alphnum))
   k+=1

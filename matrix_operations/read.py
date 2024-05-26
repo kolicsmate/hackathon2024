@@ -11,20 +11,34 @@ for line in sourcefile:
 print(matrices)
 
 matricesonly = []
+operonly = []
 alphindexes = []
 i = 0
-while matrices[i][0] != 'operations':
-    try:
-        int(matrices[i][0])
-        matricesonly.append(matrices[i])
-    except:
-        matricesonly.append(matrices[i][0])
-        alphindexes.append(i)
+operation = False
+while i < len(matrices):
+    if matrices[i][0] == 'operations':
+        operation = True
+        i+=1
+        continue
+    if operation:
+        operonly.append(matrices[i])
+    else:
+        try:
+            int(matrices[i][0])
+            matricesonly.append(matrices[i])
+            for g in matrices[i]:
+                if g == '':
+                    matrices[i].remove('')
+        except:
+            matricesonly.append(matrices[i][0])
+            alphindexes.append(i)
     i+= 1
-        
+
 print(matricesonly, alphindexes)
 veglegesmatrixok = []
-'''for i in range((len(matricesonly))):'''
+for i in range(len(alphindexes)-1):
+    veglegesmatrixok.append(matricesonly[alphindexes[i]:alphindexes[i+1]])
     
-    
-        
+print(veglegesmatrixok)
+print(operonly)
+
