@@ -23,11 +23,7 @@ for line in lines:
       if line[i] not in alphnum:
         alphnum += line[i]
       i += 1
-  '''if n%2 == 1:
-    alphnum += ' '
-    '''
-  
-  
+
   if i < n/2:
     print('NO, -1')
   else:
