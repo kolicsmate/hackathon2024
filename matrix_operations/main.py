@@ -123,7 +123,7 @@ for i in operations:
         #print(osszkesz)
         h = osszkesz[0]
         for cs in op[kor]:
-            print(cs, end=" ")
+            print(cs, end="")
         print()
         for m in h:
             for n in m:
