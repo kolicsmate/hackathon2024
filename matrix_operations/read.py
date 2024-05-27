@@ -8,7 +8,7 @@ for line in sourcefile:
         
         matrices.append(line.strip().split(" "))
         
-print(matrices)
+#print(matrices)
 
 matricesonly = []
 operonly = []
@@ -33,8 +33,8 @@ while i < len(matrices):
             matricesonly.append(matrices[i][0])
             alphindexes.append(i)
     i+= 1
-
-print(matricesonly, alphindexes)
+alphindexes.append(len(matricesonly))
+#print(matricesonly, alphindexes)
 veglegesmatrixok = []
 for i in range(len(alphindexes)-1):
     veglegesmatrixok.append(matricesonly[alphindexes[i]:alphindexes[i+1]])

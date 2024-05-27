@@ -1,4 +1,4 @@
-sourcefile = open('palindrome_checker\input.txt', 'r', encoding="utf-8")
+sourcefile = open('./input.txt', 'r', encoding="utf-8")
 lines = []
 
 for line in sourcefile:
