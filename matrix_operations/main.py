@@ -129,6 +129,6 @@ for i in operations:
             for n in m:
                 print(n, end=" ")
             print()
-        if kor != len(operations)-1:
-            print()
+        
+        print()
         kor += 1

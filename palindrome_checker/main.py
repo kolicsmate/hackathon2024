@@ -2,7 +2,7 @@ sourcefile = open('./input.txt', 'r', encoding="utf-8")
 lines = []
 
 for line in sourcefile:
-    print(line)
+    #print(line)
     string = ""
     for char in line.strip():
         if char.isalnum():
@@ -10,7 +10,7 @@ for line in sourcefile:
       
     lines.append(string)
 
-print(lines)
+#print(lines)
   
 
 k =1
