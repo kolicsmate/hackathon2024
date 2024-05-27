@@ -130,4 +130,5 @@ for i in operations:
                 print(n, end=" ")
             print()
         kor += 1
-        print()
+        if kor != len(operation)-1:
+            print()
